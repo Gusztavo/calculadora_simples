@@ -21,6 +21,7 @@ class Calculadora:
         self.root.resizable(True, True)
         self.root.minsize(width = 300, height = 500)
         self.root.maxsize(width = 800, height = 800)
+        self.root.iconbitmap('icone.ico')
 
 
     def entry(self):
